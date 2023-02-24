@@ -8,5 +8,4 @@ import javax.transaction.Transactional;
 
 @Repository
 @Transactional
-public interface JobRepository extends CrudRepository<Job, Integer> {
-}
+public interface JobRepository extends CrudRepository<Job, Integer> {}
